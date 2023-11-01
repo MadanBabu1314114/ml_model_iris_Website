@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flask ML Prediction Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #a1c4fd, #c2e9fb);
+            /* Light blue to light green gradient */
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        p {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f2f2f2;
+            /* Light gray background */
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            color: #333;
+        }
+
+        a {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Result</h1>
+    <p>Predicted Iris Species: {{ prediction }}</p>
+    <a href="/">Go Back</a>
+</body>
+
+</html>
